@@ -1,0 +1,161 @@
+body {
+  margin: 20px;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: white;
+  font-size: 12px;
+}
+
+.food-card {
+  width: 350px;
+  height: 378px;
+  padding: 12px;
+  display: flex;
+  font-family: Okra, Helvetica, sans-serif;
+  position: relative;
+  border: 1px solid transparent;
+}
+.food-card:hover {
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 5px 1px rgba(134, 146, 146, 0.315);
+  border-radius: 20px;
+}
+.food-item {
+  width: 328px;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid transparent;
+  padding: 12px;
+  border-radius: 20px;
+}
+.food-desc {
+  text-decoration: none;
+  color: black;
+}
+.img img {
+  width: 328px;
+  height: 248px;
+  border-radius: 20px;
+}
+.hotel-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+}
+.hotel {
+  font-size: 18px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: rgb(64, 122, 6);
+}
+.item-r {
+  color: white;
+  font-size: 12px;
+}
+.items-rs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  color: rgba(62, 60, 60, 0.833);
+}
+.item-s {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.safety-pro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(73, 71, 71, 0.249);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.icon img {
+  width: 18px;
+  height: 18px;
+}
+.protocols {
+  font-size: 12px;
+  color: rgba(50, 50, 50, 0.755);
+}
+.safety-img img {
+  width: 48px;
+  height: 18px;
+}
+.promoted {
+  position: absolute;
+  font-size: 12px;
+  font-weight: 100;
+  color: white;
+  top: 35px;
+  left: 35px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.promoted-abs {
+  border: 1px solid transparent;
+  padding: 2px 5px;
+  background-color: rgba(161, 158, 158, 0.34);
+  border-radius: 7px;
+}
+.offer {
+  position: absolute;
+  top: 235px;
+  color: white;
+  font-size: 12px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.save {
+  border: 1px solid transparent;
+  padding: 2px 5px;
+  background-color: rgb(28, 90, 223);
+  border-radius: 1px;
+  padding: 4px 7px;
+}
+.extra-off {
+  position: absolute;
+  top: 200px;
+  color: white;
+  font-size: 12px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.extra {
+  border: 1px solid transparent;
+  padding: 2px 5px;
+  background-color: rgb(224, 49, 49);
+  border-radius: 1px;
+  padding: 4px 7px;
+}
+
+.time {
+  position: absolute;
+  top: 235px;
+  right: 35px;
+  color: white;
+  font-size: 12px;
+  font-family: Okra, Helvetica, sans-serif;
+}
+.min {
+  border: 1px solid transparent;
+  padding: 2px 5px;
+  background-color: rgba(128, 128, 126, 0.599);
+  border-radius: 1px;
+  padding: 4px 7px;
+  border-radius: 5px;
+}
